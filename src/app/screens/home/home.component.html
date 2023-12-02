@@ -1,0 +1,14 @@
+<div class="container-home">
+    <app-header></app-header>
+    <div class="content-home">
+        <h1>{{selectedValue}}</h1>
+        <div class="skillsList">
+            <ul>
+                <li *ngFor="let item of skills">{{item}}</li>
+            </ul>
+        </div>
+    </div>
+    <div class="languageFooter">
+        <app-language-footer></app-language-footer>
+    </div>
+</div>
